@@ -6,10 +6,10 @@
     "type": "offline"
   },
   "server": {
-    "ip": "slobtest1.aternos.me",
-    "port": 27586,
-    "version": "",
-    "try-creative": false
+    "ip": "New24on7Bot.aternos.me",
+    "port": 37791,
+    "version": "1.21.1",
+    "try-creative": true
   },
   "position": {
     "enabled": true,
@@ -27,7 +27,7 @@
       "sneak": true
     },
     "chat-messages": {
-      "enabled": true,
+      "enabled": false,
       "repeat": true,
       "repeat-delay": 120,
       "messages": [
@@ -59,13 +59,13 @@
   },
   "modules": {
     "avoidMobs": true,
-    "combat": true,
-    "beds": false,
+    "combat": false,
+    "beds": true,
     "chat": true,
     "console-commands": true
   },
   "combat": {
-    "attack-mobs": true,
+    "attack-mobs": false,
     "auto-eat": true
   },
   "beds": {
@@ -82,6 +82,6 @@
     }
   },
   "chat": {
-    "respond": true
+    "respond": false
   }
 }
